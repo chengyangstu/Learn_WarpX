@@ -1,0 +1,27 @@
+# Python caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local environments and package caches
+pic_base/envs/
+pic_base/pkgs/
+pic_base/tools/micromamba.tar.bz2
+
+# Generated simulation outputs that can be reproduced
+pic_base/runs/
+relativistic_reconnection_maxwell_solvers/runs/
+
+# Large downloaded paper artifacts; docs keep the citation/analysis
+relativistic_reconnection_maxwell_solvers/paper/*.pdf
+relativistic_reconnection_maxwell_solvers/paper/*.txt
+
+# OS/editor
+.DS_Store
+.vscode/
+
+# Runtime crash/debug outputs
+Backtrace.*
+
+# Local tool binaries are reproducible from install instructions
+pic_base/tools/bin/micromamba
