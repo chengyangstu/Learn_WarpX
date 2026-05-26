@@ -11,6 +11,14 @@ pic_base/tools/micromamba.tar.bz2
 # Generated simulation outputs that can be reproduced
 pic_base/runs/
 relativistic_reconnection_maxwell_solvers/runs/
+warpx_cuda_build/runs/
+
+# Large local WarpX CUDA build artifacts
+warpx_cuda_build/envs/
+warpx_cuda_build/pkgs/
+warpx_cuda_build/build/
+warpx_cuda_build/src/WarpX/
+warpx_cuda_build/logs/*.log
 
 # Large downloaded paper artifacts; docs keep the citation/analysis
 relativistic_reconnection_maxwell_solvers/paper/*.pdf

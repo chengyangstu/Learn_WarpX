@@ -30,3 +30,11 @@
 
 ### `pic_base/`
 - 2026-05-26：新增 GPU-ready 2D Langmuir 示例、后端检查脚本和运行说明；当前机器可见 NVIDIA GPU，但已确认现有 conda-forge WarpX 是 CPU/OpenMP 构建，本次运行是 CPU 功能验证。
+
+### `warpx_cuda_build/`
+- 2026-05-26：创建真正的 CUDA/GPU WarpX 构建目录，独立于 `pic_base/` 的 CPU/OpenMP conda 环境。
+- 2026-05-26：在 WSL2 内确认 NVIDIA GeForce RTX 2050 可见，配置 micromamba CUDA 12.1 构建环境。
+- 2026-05-26：克隆 WarpX 26.04 源码，完成 2D `NOMPI.CUDA.DP.PDP.OPMD.EB` 版本编译。
+- 2026-05-26：新增 GPU Langmuir 2D 输入、运行脚本和日志摘要绘图脚本；已实际运行并确认日志包含 `Initializing CUDA`、`CUDA initialized with 1 device` 和 GPU 显存统计。
+- 2026-05-26：新增 `docs/build_notes.md` 与 `visualizations/cuda_langmuir_run_summary.png`，记录 CUDA 构建、运行和可视化结果。
+- 2026-05-26：新增 `README.md` 和 `scripts/build_warpx_cuda_2d.sh`，使该目录在 GitHub 上保留可复现的 GPU 构建流程。
