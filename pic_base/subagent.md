@@ -45,3 +45,4 @@ pic_base/tools/bin/micromamba run -p pic_base/envs/warpx python -c "import pywar
 - 2026-05-26：新增 `docs/warpx_pic_theory_tutorial.md`，系统整理 WarpX 官网 PIC 理论教程。
 - 2026-05-26：更新 `docs/warpx_pic_notes.md` 和 `examples/langmuir_1d/README.md`，加入可视化入口。
 - 2026-05-26：重排 `docs/warpx_pic_theory_tutorial.md`，将 Vlasov-Maxwell、沉积、插值、Yee 推进、CFL、Langmuir 频率等内容改为数学公式环境。
+- 2026-05-26：新增 `examples/gpu_langmuir_2d/`、`scripts/check_warpx_gpu_backend.sh`、`scripts/run_gpu_langmuir_2d.sh` 和 `docs/gpu_warpx_notes.md`；2D 输入已运行成功，但当前 WarpX 为 CPU/OpenMP 后端，非真实 GPU 运行。

@@ -27,3 +27,6 @@
 
 ### GitHub 发布
 - 2026-05-26：初始化 Git 仓库，添加 `.gitignore`，排除本地环境、包缓存、运行输出和论文原始下载文件；推送到 `https://github.com/chengyangstu/Learn_WarpX.git` 的 `main` 分支。
+
+### `pic_base/`
+- 2026-05-26：新增 GPU-ready 2D Langmuir 示例、后端检查脚本和运行说明；当前机器可见 NVIDIA GPU，但已确认现有 conda-forge WarpX 是 CPU/OpenMP 构建，本次运行是 CPU 功能验证。
