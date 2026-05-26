@@ -24,3 +24,6 @@
 - 2026-05-26：新增论文解析 `docs/paper_analysis.md` 和缩小版复现说明 `docs/reproduction_notes.md`。
 - 2026-05-26：新增复现脚本 `src/reproduce_reconnection_solver_study.py`，已本地运行成功。
 - 2026-05-26：生成复现数据 `runs/reduced_reproduction/` 和图像 `figures/`。
+
+### GitHub 发布
+- 2026-05-26：初始化 Git 仓库，添加 `.gitignore`，排除本地环境、包缓存、运行输出和论文原始下载文件；推送到 `https://github.com/chengyangstu/Learn_WarpX.git` 的 `main` 分支。
